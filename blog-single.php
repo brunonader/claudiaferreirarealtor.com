@@ -48,27 +48,12 @@
                       <li><a href="about.php">About</a></li>
                       <li class="active"><a href="blog.php">Blog</a></li>
                       <li><a href="contact.php">Contact</a></li>
-                      <li><a href="search-for-properties.php">Search For Property</a></li>
+                      <li><a href="search-for-properties.php">Search For Properties</a></li>
                     </ul>
                   </div>
-                  <div class="col-md-6 extra-info">
-                    <div class="row">
-                      <div class="col-md-6 mb-5">
-                        <h3>Contact Info</h3>
-                        <p>Bethel, CT</p>
-                        <p>homes@claudiaferreirarealtor.com</p>
-                        <p>+1-475-279-1488</p>
-                      </div>
-                      <div class="col-md-6">
-                        <h3>Connect With Us</h3>
-                        <ul class="list-unstyled">
-                          <li><a href="https://twitter.com/claudiafrealtor">Twitter</a></li>
-                          <li><a href="https://www.facebook.com/claudiamferreirarealtor">Facebook</a></li>
-                          <li><a href="https://www.instagram.com/claudiaferreirarealtor/">Instagram</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
+                  <?php
+      include("includes/contact-social-media-section.php"); 
+    ?>
                 </div>
               </div>
             </nav>

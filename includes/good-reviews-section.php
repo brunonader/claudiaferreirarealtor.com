@@ -15,7 +15,7 @@
           <div class="col-md-6 mb-4 mb-lg-0 col-lg-4 text-center">
             <span class="ion-android-hangout display-3 text-primary"></span>
             <h3 class="card-title">24/7 Support</h3>
-            <p>We are here to help you. Don't hesitate to call us @ +1-475-279-1488 or leave us a message anytime and anyday.</p>
+            <p>We are here to help you. Don't hesitate to call us @ <a href="tel:+1-475-279-1488">+1-475-279-1488</a> or leave us a message anytime and anyday.</p>
           </div>
         </div>
       </div>

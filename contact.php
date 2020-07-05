@@ -48,25 +48,9 @@
                         <li><a href="search-for-properties.php">Search For Properties</a></li>
                       </ul>
                     </div>
-                    <div class="col-md-6 extra-info">
-                      <div class="row">
-                        <div class="col-md-6 mb-5">
-                          <h3>Contact Info</h3>
-                          <p>Bethel, CT</p>
-                          <p>homes@claudiaferreirarealtor.com</p>
-                          <p>+1-475-279-1488</p>
-                          
-                        </div>
-                        <div class="col-md-6">
-                          <h3>Connect With Us</h3>
-                          <ul class="list-unstyled">
-                            <li><a href="https://twitter.com/claudiafrealtor">Twitter</a></li>
-                            <li><a href="https://www.facebook.com/claudiamferreirarealtor">Facebook</a></li>
-                            <li><a href="https://www.instagram.com/claudiaferreirarealtor/">Instagram</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
+                    <?php
+      include("includes/contact-social-media-section.php"); 
+    ?>
                   </div>
                 </div>
               </nav>
@@ -131,8 +115,10 @@
             <div class="row">
               <div class="col-md-10 ml-auto contact-info">
                 <p><span class="d-block">Address:</span> <span style="font-size: 23px;">Bethel, CT</span></p>
-                <p><span class="d-block">Phone:</span> <span style="font-size: 23px;">+1-475-279-1488</span></p>
-                <p><span class="d-block">Email:</span> <span style="font-size: 23px;">homes@claudiaferreirarealtor.com</span></p>
+                <p><span class="d-block">Phone:</span> <span style="font-size: 23px;">
+                <a href="tel:+1-475-279-1488">+1-475-279-1488</a></span></p>
+                <p><span class="d-block">Email:</span> <span style="font-size: 23px;">
+                <a href="mailto:homes@claudiaferreirarealtor.com" style="color: white;">homes@claudiaferreirarealtor.com</a></span></p>
               </div>
             </div>
           </div>
