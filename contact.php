@@ -116,7 +116,7 @@
               <div class="col-md-10 ml-auto contact-info">
                 <p><span class="d-block">Address:</span> <span style="font-size: 23px;">Bethel, CT</span></p>
                 <p><span class="d-block">Phone:</span> <span style="font-size: 23px;">
-                <a href="tel:+1-475-279-1488">+1-475-279-1488</a></span></p>
+                <a href="tel:+1-475-279-1488" style="color: white;">+1-475-279-1488</a></span></p>
                 <p><span class="d-block">Email:</span> <span style="font-size: 23px;">
                 <a href="mailto:homes@claudiaferreirarealtor.com" style="color: white;">homes@claudiaferreirarealtor.com</a></span></p>
               </div>
