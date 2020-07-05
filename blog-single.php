@@ -27,7 +27,7 @@
   <header class="site-header">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-4 site-logo" data-aos="fade"><a href="index.html">Claudia Ferreira</a></div>
+        <div class="col-4 site-logo" data-aos="fade"><a href="index.php">Claudia Ferreira</a></div>
         <div class="col-8">
 
 
@@ -44,11 +44,11 @@
                 <div class="row full-height align-items-center">
                   <div class="col-md-6">
                     <ul class="list-unstyled menu">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="about.html">About</a></li>
-                      <li class="active"><a href="blog.html">Blog</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                      <li><a href="search.html">Search For Property</a></li>
+                      <li><a href="index.php">Home</a></li>
+                      <li><a href="about.php">About</a></li>
+                      <li class="active"><a href="blog.php">Blog</a></li>
+                      <li><a href="contact.php">Contact</a></li>
+                      <li><a href="search-for-properties.php">Search For Property</a></li>
                     </ul>
                   </div>
                   <div class="col-md-6 extra-info">
@@ -158,7 +158,7 @@
                 <h2 class="heading">Popular Post</h2>
                 <ul class="post-list list-unstyled">
                   <li>
-                    <a href="blog-single.html" class="d-flex">
+                    <a href="blog-single.php" class="d-flex">
                       <span class="mr-3 image"><img src="img/img_1.jpg" alt="Image placeholder"
                           class="img-fluid"></span>
                       <div>
@@ -168,7 +168,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="blog-single.html" class="d-flex">
+                    <a href="blog-single.php" class="d-flex">
                       <span class="mr-3 image"><img src="img/img_2.jpg" alt="Image placeholder"
                           class="img-fluid"></span>
                       <div>
@@ -179,7 +179,7 @@
                   </li>
 
                   <li>
-                    <a href="blog-single.html" class="d-flex">
+                    <a href="blog-single.php" class="d-flex">
                       <span class="mr-3 image"><img src="img/img_1.jpg" alt="Image placeholder"
                           class="img-fluid"></span>
                       <div>
@@ -189,7 +189,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="blog-single.html" class="d-flex">
+                    <a href="blog-single.php" class="d-flex">
                       <span class="mr-3 image"><img src="img/img_2.jpg" alt="Image placeholder"
                           class="img-fluid"></span>
                       <div>
@@ -199,7 +199,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="blog-single.html" class="d-flex">
+                    <a href="blog-single.php" class="d-flex">
                       <span class="mr-3 image"><img src="img/img_3.jpg" alt="Image placeholder"
                           class="img-fluid"></span>
                       <div>
@@ -228,48 +228,10 @@
     </div>
   </section>
 
-  <footer class="section footer-section bg-primary">
-    <div class="container">
-      <div class="row mb-4">
-        <div class="col-md-3 mb-5">
-          <ul class="list-unstyled link">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="search.html">Search for homes</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3 mb-5">
-          <ul class="list-unstyled link">
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="blog.html">Blog</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3 mb-5 pr-md-5 contact-info">
-          <p><span class="d-block">Address:</span> <span>Bethel, CT</span></p>
-          <p><span class="d-block">Phone:</span> <span>+1-475-279-1488</span></p>
-          <p><span class="d-block">Email:</span> <span> homes@claudiaferreirarealtor.com</span></p>
-        </div>
-        <div class="col-md-3 mb-5">
-          <p>Sign up for our newsletter</p>
-          <form method="post" action="newsletter-signup-confirmation.php" class="footer-newsletter">
-            <div class="form-group">
-              <input name="email" id="email" type="email" class="form-control" placeholder="your email here">
-              <button type="submit" class="btn"><span class="fa fa-paper-plane"></span></button>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="row bordertop pt-5">
-        <p class="col-md-6 text-left">&copy;Copyright 2020. All Rights Reserved.</p>
-
-        <p class="col-md-6 text-right social">
-          <a href="https://twitter.com/claudiafrealtor"><span class="fa fa-twitter"></span></a>
-          <a href="https://www.linkedin.com/in/claudia-ferreira-realtor/"><span class="fa fa-linkedin"></span></a>
-          <a href="https://www.facebook.com/claudiamferreirarealtor/"><span class="fa fa-facebook"></span></a>
-          <a href="https://www.instagram.com/claudiaferreirarealtor/"><span class="fa fa-instagram"></span></a>
-        </p>
-      </div>
-    </div>
-  </footer>
+  
+  <?php
+  include("includes/footer-menu.php"); 
+?>
 
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/popper.min.js"></script>

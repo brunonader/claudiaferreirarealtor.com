@@ -24,7 +24,7 @@
     <header class="site-header">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-4 site-logo" data-aos="fade"><a href="index.html">Claudia Ferreira</a></div>
+          <div class="col-4 site-logo" data-aos="fade"><a href="index.php">Claudia Ferreira</a></div>
           <div class="col-8">
 
 
@@ -41,11 +41,11 @@
                   <div class="row full-height align-items-center">
                     <div class="col-md-6">
                       <ul class="list-unstyled menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="about.html">About</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="search.html">Search For Properties</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="about.php">About</a></li>
+                        <li><a href="blog.php">Blog</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="search-for-properties.php">Search For Properties</a></li>
                       </ul>
                     </div>
                     <div class="col-md-6 extra-info">
@@ -112,7 +112,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe omnis beatae libero quisquam ex nostrum repellendus, consectetur suscipit. Velit iusto ducimus sit quos officiis nesciunt libero, officia, aliquam doloremque totam.</p>
             <p>Ratione natus expedita iusto, minus cumque vitae quo culpa reiciendis aspernatur aliquam veritatis magnam non, dicta nemo inventore, nisi quas dolores. Modi laboriosam sunt aliquid rem, deserunt quis? Porro, hic.</p>
 
-            <p><a href="contact.html" class="btn btn-primary">Contact Me</a></p>
+            <p><a href="contact.php" class="btn btn-primary">Contact Me</a></p>
             
           </div>
         </div>
@@ -130,7 +130,7 @@
             <h3 class="mb-3">Contact Agent</h3>
             <p>I'm John Doe a realtor agent, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe omnis beatae libero quisquam ex nostrum repellendus, consectetur suscipit. Velit iusto ducimus sit quos officiis nesciunt libero, officia, aliquam doloremque totam.</p>
             <p>Ratione natus expedita iusto, minus cumque vitae quo culpa reiciendis aspernatur aliquam veritatis magnam non, dicta nemo inventore, nisi quas dolores. Modi laboriosam sunt aliquid rem, deserunt quis? Porro, hic.</p>
-            <p><a href="contact.html" class="btn btn-primary">Contact Me</a></p>
+            <p><a href="contact.php" class="btn btn-primary">Contact Me</a></p>
             
           </div>
         </div>
@@ -146,14 +146,14 @@
         <div class="row mb-4">
           <div class="col-md-3 mb-5">
             <ul class="list-unstyled link">
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="search.html">Search for homes</a></li>
+              <li><a href="about.php">About Us</a></li>
+              <li><a href="search-for-properties.php">Search for Properties</a></li>
             </ul>
           </div>
           <div class="col-md-3 mb-5">
             <ul class="list-unstyled link">
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="blog.html">Blog</a></li>              
+              <li><a href="contact.php">Contact</a></li>
+              <li><a href="blog.php">Blog</a></li>              
             </ul>
           </div>
           <div class="col-md-3 mb-5 pr-md-5 contact-info">

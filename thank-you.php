@@ -29,7 +29,7 @@
     <header class="site-header">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-4 site-logo" data-aos="fade"><a href="index.html">Claudia Ferreira</a>
+          <div class="col-4 site-logo" data-aos="fade"><a href="index.php">Claudia Ferreira</a>
             
           </div>
           <div class="col-8">
@@ -48,11 +48,11 @@
                   <div class="row full-height align-items-center">
                     <div class="col-md-6">
                       <ul class="list-unstyled menu">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="search.html">Search For Properties</a></li>
+                        <li class="active"><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="blog.php">Blog</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="search-for-properties.php">Search For Properties</a></li>
                       </ul>
                     </div>
                     <div class="col-md-6 extra-info">
@@ -90,8 +90,8 @@
           <div class="col-md-7 text-left ml-auto">
             <h1 class="heading" data-aos="fade-up" style="padding-left: 100px;">Thank you for contacting us.<br /></h1>
             <p class="sub-heading mb-5" data-aos="fade-up" data-aos-delay="100" style="padding-left: 100px;">Hang tight, and rest assured that<br> we will get back to you soon!</p>
-            <!-- <p data-aos="fade-up" data-aos-delay="100"><a href="contact.html" class="btn uppercase btn-primary mr-md-2 mr-0 mb-3 d-sm-inline d-block" style="margin-left: 100px;">Get In Touch</a>  -->
-              <!-- <a href="contact.html" class="btn uppercase btn-outline-light d-sm-inline d-block">Download</a></p> -->
+            <!-- <p data-aos="fade-up" data-aos-delay="100"><a href="contact.php" class="btn uppercase btn-primary mr-md-2 mr-0 mb-3 d-sm-inline d-block" style="margin-left: 100px;">Get In Touch</a>  -->
+              <!-- <a href="contact.php" class="btn uppercase btn-outline-light d-sm-inline d-block">Download</a></p> -->
           </div>
         </div>
         <a href="#next-section" class="smoothscroll scroll-down">Scroll Down</a>
@@ -108,29 +108,29 @@
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
-            <a href="property-single.html"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="property-single.html">$3,450</a></h3>
+            <a href="property-single.php"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="property-single.php">$3,450</a></h3>
             <div class="reviews-star float-left">
               46 Brookflower Rd, Houston TX
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="100">
-            <a href="property-single.html"><img src="img/img_2.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="property-single.html">$1,650</a></h3>
+            <a href="property-single.php"><img src="img/img_2.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="property-single.php">$1,650</a></h3>
             <div class="reviews-star float-left">
               2724 20th Ave N, Houston TX
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="200">
-            <a href="property-single.html"><img src="img/img_3.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="property-single.html">$3,200</a></h3>
+            <a href="property-single.php"><img src="img/img_3.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="property-single.php">$3,200</a></h3>
             <div class="reviews-star float-left">
               16321 Lone Corral Ct, Houston TX
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="300">
-            <a href="property-single.html"><img src="img/img_4.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="property-single.html">$1,200</a></h3>
+            <a href="property-single.php"><img src="img/img_4.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="property-single.php">$1,200</a></h3>
             <div class="reviews-star float-left">
               4029 26th Ave S, Houston TX
             </div>
@@ -138,29 +138,29 @@
 
 
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
-            <a href="property-single.html"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="property-single.html">$3,450</a></h3>
+            <a href="property-single.php"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="property-single.php">$3,450</a></h3>
             <div class="reviews-star float-left">
               46 Brookflower Rd, Houston TX
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="100">
-            <a href="property-single.html"><img src="img/img_2.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="property-single.html">$1,650</a></h3>
+            <a href="property-single.php"><img src="img/img_2.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="property-single.php">$1,650</a></h3>
             <div class="reviews-star float-left">
               2724 20th Ave N, Houston TX
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="200">
-            <a href="property-single.html"><img src="img/img_3.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="property-single.html">$3,200</a></h3>
+            <a href="property-single.php"><img src="img/img_3.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="property-single.php">$3,200</a></h3>
             <div class="reviews-star float-left">
               16321 Lone Corral Ct, Houston TX
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="300">
-            <a href="property-single.html"><img src="img/img_4.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="property-single.html">$1,200</a></h3>
+            <a href="property-single.php"><img src="img/img_4.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <h3><a href="property-single.php">$1,200</a></h3>
             <div class="reviews-star float-left">
               4029 26th Ave S, Houston TX
             </div>
@@ -171,51 +171,9 @@
     </section> -->
     <!-- END section -->
   
-    <section class="section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h2>Happy Customers</h2>
-          </div>
-        </div>
-        <div class="js-carousel-1 owl-carousel">
-
-          <div class="testimonial text-center">
-            <div class="author-image mb-3">
-              <img src="img/claudia-ms-lima.jpg" alt="Image placeholder" class="rounded-circle">
-            </div>
-            <blockquote>
-
-              <p>&ldquo;Competent and experienced professional. Congratulations for your success!!&rdquo;</p>
-            </blockquote>
-            <p><em>&mdash; Claudia MS Lima</em></p>
-            
-          </div>
-
-          <div class="testimonial text-center">
-            <div class="author-image mb-3">
-              <img src="img/elenilza-oliveira.jpg" alt="Image placeholder" class="rounded-circle">
-            </div>
-            <blockquote>
-              <p>&ldquo;Very responsible and efficient as well as matching the times customers want 100% recommendation&rdquo;</p>
-            </blockquote>
-            <p><em>&mdash; Elenilza Oliveira</em></p>
-          </div>
-
-          <div class="testimonial text-center">
-            <div class="author-image mb-3">
-              <img src="img/mirielle-goncalves.jpg" alt="Image placeholder" class="rounded-circle">
-            </div>
-            <blockquote>
-
-              <p>&ldquo;Claudia was a gift from God when we were looking for a house to buy, she did A great job, she was kind, very profissional and always positive when we had some difficulty times during the process , looking forward to purchase another house with the help of Claudia Ferreira!&rdquo;</p>
-            </blockquote>
-            <p><em>&mdash; Mirielle Goncalves</em></p>
-          </div>
-
-        </div>
-      </div>
-    </section>
+    <?php
+      include("includes/happy-customers-section.php"); 
+    ?>
     
     <section class="section">
       <div class="container">
@@ -233,28 +191,10 @@
         </div>
       </div>
     </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 mb-4 mb-lg-0 col-lg-4 text-center">
-            <span class="ion-android-calendar display-3 text-primary"></span>
-            <h3 class="card-title">Deal On Time</h3>
-            <p>We do our best to close your deal on time. Usually we can buy or sell your home within 45 days of when a contract agreement is signed.</p>
-          </div>
-          <div class="col-md-6 mb-4 mb-lg-0 col-lg-4 text-center">
-            <span class="ion-android-create display-3 text-primary"></span>
-            <h3 class="card-title">Good Reviews</h3>
-            <p>We have great reviews. All of our customers are very happy with our services. Checkout our <a href="https://g.page/claudiaferreirarealtor/review?rc">reviews</a> and if you haven't given us a review yet, please do so.</p>
-          </div>
-          <div class="col-md-6 mb-4 mb-lg-0 col-lg-4 text-center">
-            <span class="ion-android-hangout display-3 text-primary"></span>
-            <h3 class="card-title">24/7 Support</h3>
-            <p>We are here to help you. Don't hesitate to call us @ +1-475-279-1488 or leave us a message anytime and anyday.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    
+    <?php
+      include("includes/good-reviews-section.php"); 
+    ?>
 
     <section class="section bg-light">
       <div class="container">
@@ -268,10 +208,10 @@
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="100">
 
             <div class="media media-custom d-block mb-4">
-              <a href="blog-single.html" class="mb-4 d-block"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid"></a>
+              <a href="blog-single.php" class="mb-4 d-block"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid"></a>
               <div class="media-body">
                 <span class="meta-post">July 3, 2020</span>
-                <h2 class="mt-0 mb-3"><a href="how-to-pick-the-right-realtor.html">How to pick the right realtor?</a></h2>
+                <h2 class="mt-0 mb-3"><a href="how-to-pick-the-right-realtor.php">How to pick the right realtor?</a></h2>
               </div>
             </div>
           </div>
@@ -288,7 +228,7 @@
           <!-- 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="300">
             <div class="media media-custom d-block mb-4">
-              <a href="blog-single.html" class="mb-4 d-block"><img src="img/img_3.jpg" alt="Image placeholder" class="img-fluid"></a>
+              <a href="blog-single.php" class="mb-4 d-block"><img src="img/img_3.jpg" alt="Image placeholder" class="img-fluid"></a>
               <div class="media-body">
                 <span class="meta-post">July 3, 2020</span>
                 <h2 class="mt-0 mb-3"><a href="#">How to pick right realtor?</a></h2>
@@ -301,48 +241,9 @@
     <!-- END section -->
     
     
-    <footer class="section footer-section bg-primary">
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col-md-3 mb-5">
-            <ul class="list-unstyled link">
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="search.html">Search for homes</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5">
-            <ul class="list-unstyled link">
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="blog.html">Blog</a></li>              
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5 pr-md-5 contact-info">
-            <p><span class="d-block">Address:</span> <span> Bethel CT 06801</span></p>
-            <p><span class="d-block">Phone:</span> <span>+1-475-279-1488</span></p>
-            <p><span class="d-block">Email:</span> <span>homes@claudiaferreirarealtor.com</span></p>
-          </div>
-          <div class="col-md-3 mb-5">
-            <p>Sign up for our newsletter</p>
-            <form method="post" action="newsletter-signup-confirmation.php" class="footer-newsletter">
-              <div class="form-group">
-                <input name="email" id="email" type="email" class="form-control" placeholder="your email here">
-                <button type="submit" class="btn"><span class="fa fa-paper-plane"></span></button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="row bordertop pt-5">
-          <p class="col-md-6 text-left">&copy; Copyright 2020. All Rights Reserved.</p>
-            
-          <p class="col-md-6 text-right social">
-            <a href="https://twitter.com/claudiafrealtor"><span class="fa fa-twitter"></span></a>
-            <a href="https://www.linkedin.com/in/claudia-ferreira-realtor/"><span class="fa fa-linkedin"></span></a>
-            <a href="https://www.facebook.com/claudiamferreirarealtor/"><span class="fa fa-facebook"></span></a>
-            <a href="https://www.instagram.com/claudiaferreirarealtor/"><span class="fa fa-instagram"></span></a>
-          </p>
-        </div>
-      </div>
-    </footer>
+    <?php
+      include("includes/footer-menu.php"); 
+    ?>
     
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>

@@ -27,7 +27,7 @@
   <header class="site-header">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-4 site-logo" data-aos="fade"><a href="index.html">Claudia Ferreira</a></div>
+        <div class="col-4 site-logo" data-aos="fade"><a href="index.php">Claudia Ferreira</a></div>
         <div class="col-8">
 
 
@@ -44,11 +44,11 @@
                 <div class="row full-height align-items-center">
                   <div class="col-md-6">
                     <ul class="list-unstyled menu">
-                      <li><a href="index.html">Home</a></li>
-                      <li class="active"><a href="about.html">About</a></li>
-                      <li><a href="blog.html">Blog</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                      <li><a href="search.html">Search For Properties</a></li>
+                      <li><a href="index.php">Home</a></li>
+                      <li class="active"><a href="about.php">About</a></li>
+                      <li><a href="blog.php">Blog</a></li>
+                      <li><a href="contact.php">Contact</a></li>
+                      <li><a href="search-for-properties.php">Search For Properties</a></li>
                     </ul>
                   </div>
                   <div class="col-md-6 extra-info">
@@ -109,71 +109,11 @@
       </div>
     </div>
   </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 mb-4 mb-lg-0 col-lg-4 text-center">
-          <span class="ion-android-calendar display-3 text-primary"></span>
-          <h3 class="card-title">Deal On Time</h3>
-          <p>We do our best to close your deal on time. Usually we can buy or sell your home within 45 days of when a contract agreement is signed.</p>
-        </div>
-        <div class="col-md-6 mb-4 mb-lg-0 col-lg-4 text-center">
-          <span class="ion-android-create display-3 text-primary"></span>
-          <h3 class="card-title">Good Reviews</h3>
-          <p>We have great reviews. All of our customers are very happy with our services. Checkout our <a href="https://g.page/claudiaferreirarealtor/review?rc">reviews</a> and if you haven't given us a review yet, please do so.</p>
-        </div>
-        <div class="col-md-6 mb-4 mb-lg-0 col-lg-4 text-center">
-          <span class="ion-android-hangout display-3 text-primary"></span>
-          <h3 class="card-title">24/7 Support</h3>
-          <p>We are here to help you. Don't hesitate to call us @ +1-475-279-1488 or leave us a message anytime and anyday.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="section footer-section bg-primary">
-    <div class="container">
-      <div class="row mb-4">
-        <div class="col-md-3 mb-5">
-          <ul class="list-unstyled link">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="search.html">Search for homes</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3 mb-5">
-          <ul class="list-unstyled link">
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="blog.html">Blog</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3 mb-5 pr-md-5 contact-info">
-          <p><span class="d-block">Address:</span> <span>Bethel, CT</span></p>
-          <p><span class="d-block">Phone:</span> <span>+1-475-279-1488</span></p>
-          <p><span class="d-block">Email:</span> <span>homes@claudiaferreirarealtor.com</span></p>
-        </div>
-        <div class="col-md-3 mb-5">
-          <p>Sign up for our newsletter</p>
-          <form method="post" action="newsletter-signup-confirmation.php" class="footer-newsletter">
-            <div class="form-group">
-              <input name="email" id="email" type="email" class="form-control" placeholder="your email here">
-              <button type="submit" class="btn"><span class="fa fa-paper-plane"></span></button>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="row bordertop pt-5">
-        <p class="col-md-6 text-left">&copy;Copyright 2020. All Rights Reserved.</p>
-
-        <p class="col-md-6 text-right social">
-          <a href="https://twitter.com/claudiafrealtor"><span class="fa fa-twitter"></span></a>
-          <a href="https://www.linkedin.com/in/claudia-ferreira-realtor/"><span class="fa fa-linkedin"></span></a>
-          <a href="https://www.facebook.com/claudiamferreirarealtor/"><span class="fa fa-facebook"></span></a>
-          <a href="https://www.instagram.com/claudiaferreirarealtor/"><span class="fa fa-instagram"></span></a>
-        </p>
-      </div>
-    </div>
-  </footer>
+  
+  <?php
+      include("includes/good-reviews-section.php"); 
+  include("includes/footer-menu.php"); 
+?>
 
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/popper.min.js"></script>
