@@ -12,11 +12,11 @@
                       <div class="col-md-6">
                         <h3>Connect With Us</h3>
                         <ul class="list-unstyled">
-                          <li><a href="https://twitter.com/claudiafrealtor">Twitter</a></li>
-                          <li><a href="https://www.facebook.com/claudiamferreirarealtor">Facebook</a></li>
-                          <li><a href="https://www.instagram.com/claudiaferreirarealtor/">Instagram</a></li>
-                          <li><a href="https://www.linkedin.com/in/claudia-ferreira-realtor/">LinkedIn</a></li>
-                          <li><a href="https://www.youtube.com/channel/UCdHZaRHbUblzKfKlz4BW3IQ">YouTube</a></li>
+                          <li><a href="https://twitter.com/claudiafrealtor" target="_blank">Twitter</a></li>
+                          <li><a href="https://www.facebook.com/claudiamferreirarealtor" target="_blank">Facebook</a></li>
+                          <li><a href="https://www.instagram.com/claudiaferreirarealtor/" target="_blank">Instagram</a></li>
+                          <li><a href="https://www.linkedin.com/in/claudia-ferreira-realtor/" target="_blank">LinkedIn</a></li>
+                          <li><a href="https://www.youtube.com/channel/UCdHZaRHbUblzKfKlz4BW3IQ" target="_blank">YouTube</a></li>
                         </ul>
                       </div>
                     </div>

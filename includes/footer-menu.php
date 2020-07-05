@@ -36,11 +36,11 @@
           <p class="col-md-6 text-left">&copy; Copyright 2020. All Rights Reserved.</p>
             
           <p class="col-md-6 text-right social">
-            <a href="https://twitter.com/claudiafrealtor"><span class="fa fa-twitter"></span></a>
-            <a href="https://www.linkedin.com/in/claudia-ferreira-realtor/"><span class="fa fa-linkedin"></span></a>
-            <a href="https://www.facebook.com/claudiamferreirarealtor/"><span class="fa fa-facebook"></span></a>
-            <a href="https://www.instagram.com/claudiaferreirarealtor/"><span class="fa fa-instagram"></span></a>
-            <a href="https://www.youtube.com/channel/UCdHZaRHbUblzKfKlz4BW3IQ"><span class="fa fa-youtube"></span></a>
+            <a href="https://twitter.com/claudiafrealtor" target="_blank"><span class="fa fa-twitter"></span></a>
+            <a href="https://www.linkedin.com/in/claudia-ferreira-realtor/" target="_blank"><span class="fa fa-linkedin"></span></a>
+            <a href="https://www.facebook.com/claudiamferreirarealtor/" target="_blank"><span class="fa fa-facebook"></span></a>
+            <a href="https://www.instagram.com/claudiaferreirarealtor/" target="_blank"><span class="fa fa-instagram"></span></a>
+            <a href="https://www.youtube.com/channel/UCdHZaRHbUblzKfKlz4BW3IQ" target="_blank"><span class="fa fa-youtube"></span></a>
           </p>
         </div>
       </div>
