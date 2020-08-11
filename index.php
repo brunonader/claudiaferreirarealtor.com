@@ -205,16 +205,16 @@
               </div>
             </div>
           </div>
-          <!-- 
+          
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="300">
             <div class="media media-custom d-block mb-4">
-              <a href="blog-single.php" class="mb-4 d-block"><img src="img/img_3.jpg" alt="Image placeholder" class="img-fluid"></a>
+              <a href="blog-single.php" class="mb-4 d-block"><img src="img/blog/just-sold-lakewood-condo.jpg" alt="Just Sold in Danbury, CT" class="img-fluid"></a>
               <div class="media-body">
-                <span class="meta-post">July 3, 2020</span>
-                <h2 class="mt-0 mb-3"><a href="#">How to pick right realtor?</a></h2>
+                <span class="meta-post">July 24, 2020</span>
+                <h2 class="mt-0 mb-3"><a href="transactions.php?id=20200727">Just Sold in Danbury, CT</a></h2>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
     </section>

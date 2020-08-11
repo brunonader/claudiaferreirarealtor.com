@@ -85,7 +85,7 @@
           <div class="row mb-5">
             <div class="col-md-6">
               <div class="media media-custom d-block mb-4">
-                <a href="blog-single.php" class="mb-4 d-block"><img src="img/img_1.jpg" alt="Image placeholder"
+                <a href="how-to-pick-the-right-realtor.php" class="mb-4 d-block"><img src="img/img_1.jpg" alt="Claudia Ferreira Realtor | How to pick the right realtor"
                     class="img-fluid"></a>
                 <div class="media-body">
                   <span class="meta-post">July 3, 2020</span>
@@ -105,15 +105,16 @@
                 </div>
               </div>
 
-            <!-- <div class="col-md-6">
+            <div class="col-md-6">
                 <div class="media media-custom d-block mb-4">
-                  <a href="blog-single.php" class="mb-4 d-block"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  <a href="transactions.php?id=20200724" class="mb-4 d-block"><img src="img/blog/just-sold-lakewood-condo.jpg" alt="Just Sold in Danbury, CT" class="img-fluid"></a>
                   <div class="media-body">
                     <span class="meta-post">July 3, 2020</span>
-                    <h2 class="mt-0 mb-3"><a href="#">How to pick right realtor?</a></h2>
+                    <h2 class="mt-0 mb-3"><a href="transactions.php?id=20200724">Just Sold in Danbury, CT</a></h2>
                   </div>
                 </div>
               </div>
+              <!--
               <div class="col-md-6">
                  <div class="media media-custom d-block mb-4">
                   <a href="blog-single.php" class="mb-4 d-block"><img src="img/img_2.jpg" alt="Image placeholder" class="img-fluid"></a>
@@ -122,9 +123,9 @@
                     <h2 class="mt-0 mb-3"><a href="#">Five Reasons to Stay at Villa Resort</a></h2>
                   </div>
                 </div>
-              </div> -->
+              </div>
 
-            <!-- <div class="col-md-6">
+             <div class="col-md-6">
                 <div class="media media-custom d-block mb-4">
                   <a href="blog-single.php" class="mb-4 d-block"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid"></a>
                   <div class="media-body">
@@ -232,6 +233,8 @@
                   <li><a href="#">Real Estate Articles <span class="count">(1)</span></a></li>
                   <li><a href="#">Investment <span class="count">(0)</span></a></li>
                   <li><a href="#">Finance <span class="count">(0)</span></a></li>
+                  <li><a href="#">Transactions <span class="count">(1)</span></a></li>
+                  <li><a href="#">Holidays/Events <span class="count">(1)</span></a></li>
                 </ul>
               </div>
             </div>

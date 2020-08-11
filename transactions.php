@@ -43,9 +43,14 @@
               <div class="container">
                 <div class="row full-height align-items-center">
                   <div class="col-md-6">
-                  <?php
-                    include("includes/burger-menu.php");
-                    ?>
+                  <ul class="list-unstyled menu">
+                        <li class="active"><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="blog.php">Blog</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="sell-your-property.php">Sell Your Property</a></li>
+                        <li><a href="search-for-properties.php">Search For Properties</a></li>
+                      </ul>
                   </div>
                   <?php
       include("includes/contact-social-media-section.php"); 
