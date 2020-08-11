@@ -62,14 +62,14 @@
     </header>
     <!-- END head -->
 
-    <section class="site-hero overlay page-inside" style="background-image: url(img/contact.jpg)">
+    <section class="site-hero overlay page-inside" style="background-image: url(img/ready-to-sell-your-property.jpg)">
       <div class="container">
         <div class="row site-hero-inner align-items-center">
           <div class="col-md-7 text-left mr-auto">
-            <h1 class="heading" data-aos="fade-up">Contact Us</h1>
+            <h1 class="heading" data-aos="fade-up">Ready to Sell? We are here to do it quickly</h1>
           </div>
         </div>
-        <a href="#next-section" class="smoothscroll scroll-down">Scroll Down</a>
+        <!-- <a href="#next-section" class="smoothscroll scroll-down">Scroll Down</a> -->
       </div>
     </section>
     <!-- END section -->
@@ -82,7 +82,15 @@
             
             <form action="thank-you.php" method="post" class="bg-white p-md-5 p-4 mb-5" style="margin-top: -150px;">
               <div class="row">
+                  <p><strong>
+                  Are you ready to sell your property? We are here to help you sell it quickly! 
+                  <br />Contact us by filling out the form below and we'll get in touch with you shortly. </strong>
+</p>
+</div>
+<div class="row"> 
+
                 <div class="col-md-6 form-group">
+                    
                   <label for="leadName">Name</label>
                   <input type="text" id="leadName" name="leadName" class="form-control ">
                 </div>

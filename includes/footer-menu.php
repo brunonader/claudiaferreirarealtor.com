@@ -13,6 +13,7 @@
               <li><a href="contact.php">Contact</a></li>
               <li><a href="about.php">About Us</a></li>
               <li><a href="search-for-properties.php">Search for Properties</a></li>
+              <li><a href="sell-your-property.php">Sell Your Property</a></li>
               <li><a href="blog.php">Blog</a></li>              
             </ul>
           </div>

@@ -48,6 +48,7 @@
                       <li><a href="about.php">About</a></li>
                       <li class="active"><a href="blog.php">Blog</a></li>
                       <li><a href="contact.php">Contact</a></li>
+                      <li><a href="sell-your-property.php">Sell Your Property</a></li>
                       <li><a href="search-for-properties.php">Search For Properties</a></li>
                     </ul>
                   </div>

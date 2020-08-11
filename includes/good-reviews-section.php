@@ -9,8 +9,8 @@
           </div>
           <div class="col-md-6 mb-4 mb-lg-0 col-lg-4 text-center">
             <span class="ion-android-create display-3 text-primary"></span>
-            <h3 class="card-title">Good Reviews</h3>
-            <p>We have great reviews. All of our customers are very happy with our services. Checkout our <a href="https://g.page/claudiaferreirarealtor/review?rc">reviews</a> and if you haven't given us a review yet, please do so.</p>
+            <h3 class="card-title">Google Reviews</h3>
+            <p>We have great reviews. All of our customers are very happy with our services. Checkout our <a href="https://g.page/claudiaferreirarealtor/review?rc">Google reviews</a> and if you haven't given us a review yet, please do so.</p>
           </div>
           <div class="col-md-6 mb-4 mb-lg-0 col-lg-4 text-center">
             <span class="ion-android-hangout display-3 text-primary"></span>
