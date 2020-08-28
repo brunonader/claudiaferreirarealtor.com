@@ -114,17 +114,17 @@
                   </div>
                 </div>
               </div>
-              <!--
+              
               <div class="col-md-6">
                  <div class="media media-custom d-block mb-4">
-                  <a href="blog-single.php" class="mb-4 d-block"><img src="img/img_2.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  <a href="homebuyers-guide.php" class="mb-4 d-block"><img src="img/blog/Homebuyers-guide.png" alt="Claudia Ferreira Realtor | Homebuyers Guide - A step by step guide" class="img-fluid"></a>
                   <div class="media-body">
-                    <span class="meta-post">July 3, 2020</span>
-                    <h2 class="mt-0 mb-3"><a href="#">Five Reasons to Stay at Villa Resort</a></h2>
+                    <span class="meta-post">August 26, 2020</span>
+                    <h2 class="mt-0 mb-3"><a href="homebuyers-guide.php">Homebuyers Guide - A step-by-step guide</a></h2>
                   </div>
                 </div>
               </div>
-
+<!--
              <div class="col-md-6">
                 <div class="media media-custom d-block mb-4">
                   <a href="blog-single.php" class="mb-4 d-block"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid"></a>
