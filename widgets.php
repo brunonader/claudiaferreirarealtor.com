@@ -80,59 +80,12 @@
   <section class="section" id="next-section">
     <div class="container">
       <div class="row">
-        <img src="img/how-to-choose-right-realtor.jpg" alt="Image" class="img-fluid rounded img-shadow">
-
-        <h3 style="margin-top: 30px;" class="mb-3">How to Pick The Right Realtor</h3>
-        <p>1. Check out the local housing market in person: Drive or walk around your neighborhood and look for repeat
-          agent names on real estate signs (bonus if there’s a “sold” sign next to them!). According to our research,
-          six percent of sellers find agents from a for-sale sign, while 15 percent hire an agent based on name
-          recognition around their community.</p>
-        <p>2. Talk to an agent in person at an open house: Pop into a nearby open house and observe how the agent
-          engages with
-          potential buyers. Take the time to interact with the real estate agent — don’t just grab a business card and
-          leave.
-          Keep an eye out for personality and professional chemistry. Five percent of homes sellers find their agents at
-          an
-          open house.</p>
-        <p>3. Compare real estate agents online: Do a quick name search online for the real estate agents you’ve
-          identified.
-          Online reviews are the next best thing to a personal referral. Read what people in your area are saying about
-          a
-          recommended real estate agent. And, take note of how that agent responds to negative reviews.</p>
-        <p>4. Get a referral: There’s nothing better than a personal referral from a friend or family member you trust.
-          According to Zillow research, more than one in five sellers find their agent because of a referral from a
-          friend, relative, neighbor or colleague.</p>
-        <ol>
-          5. Ask the right questions:
-          <li>
-            How long have you been working in real estate?
-          </li>
-          <li>
-            Do you primarily work with buyers or sellers?
-          </li>
-          <li>
-            How many active clients do you have at a time?
-          </li>
-          <li>
-            Are you part of a team?
-          </li>
-          <li>
-            What’s your specialty?
-          </li>
-          <li>
-            How will you market my home?
-          </li>
-          <li>
-            Can you put me in contact with some references?
-          </li>
-        </ol>
-        <p>
-          Are you ready to purchase a home? Do you have more questions? Call us we will be glad to help you all the way
-          in the process.
-          We can find your dream home quickly or even sell your property with a very short time. Call us today @
-          475-279-1488 and we will be glad to assist
-          you will all your needs.
-        </p>
+        <div style='padding-left: 10px; padding-right: 10px;'>
+        <iframe src="https://www.realtor.com/welcome/content-corner/vertical-nrsk-widget.html" style="border:0px #ffffff none;" name="rdc-widget" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="402px" width="242px" allowfullscreen></iframe>
+        <iframe src="https://www.realtor.com/welcome/housing-widget/map/" width="640" height="260" frameborder="0"></iframe>
+        <iframe src="https://www.realtor.com/welcome/housing-widget/?search=Bethel, CT" width="280" height="600" frameborder="0"></iframe>
+        <iframe src="https://content.jwplatform.com/players/oO2wrGqZ-E9iOO95u.html" width="480" height="270" frameborder="0" scrolling="auto" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
     </div>

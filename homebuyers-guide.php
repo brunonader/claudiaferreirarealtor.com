@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Claudia Ferreira &mdash; Realtor</title>
+  <title>Claudia Ferreira &mdash; CT Realtor</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -80,6 +80,7 @@
   <section class="section" id="next-section">
     <div class="container">
       <div class="row">
+        <div style='padding-left: 10px; padding-right: 10px;'>
         <img src="img/blog/Homebuyers-guide.png" alt="Claudia Ferreira Realtor | Homeowners Guide" class="img-fluid rounded img-shadow">
 
         <h3 style="margin-top: 30px;" class="mb-3">Home Buyers - A step-by-step guide</h3>
@@ -134,6 +135,7 @@
           or if you wish to get more information now, please call us today @
           <strong>475-279-1488</strong> and we will be glad to assist you will all your needs.
         </p>
+        </div>
       </div>
     </div>
     </div>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Claudia Ferreira &mdash; Realtor</title>
+    <title>Claudia Ferreira &mdash; CT Realtor</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 

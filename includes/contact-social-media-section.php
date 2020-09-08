@@ -15,6 +15,7 @@
                           <li><a href="https://twitter.com/claudiafrealtor" target="_blank">Twitter</a></li>
                           <li><a href="https://www.facebook.com/claudiamferreirarealtor" target="_blank">Facebook</a></li>
                           <li><a href="https://www.instagram.com/claudiaferreirarealtor/" target="_blank">Instagram</a></li>
+                          <li><a href="https://www.pinterest.com/claudiaferreirarealtor/" target="_blank">Pinterest</a></li>
                           <li><a href="https://www.linkedin.com/in/claudia-ferreira-realtor/" target="_blank">LinkedIn</a></li>
                           <li><a href="https://www.youtube.com/channel/UCdHZaRHbUblzKfKlz4BW3IQ" target="_blank">YouTube</a></li>
                         </ul>
