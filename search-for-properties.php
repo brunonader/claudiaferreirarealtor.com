@@ -95,7 +95,7 @@
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
-            <a href="property-single.php"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <a href="property-single.php"><img src="img/danbury-ct-home.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
             <h3><a href="property-single.php">$3,450</a></h3>
             <div class="reviews-star float-left">
               46 Brookflower Rd, Houston TX
@@ -125,7 +125,7 @@
 
 
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
-            <a href="property-single.php"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <a href="property-single.php"><img src="img/danbury-ct-home.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
             <h3><a href="property-single.php">$3,450</a></h3>
             <div class="reviews-star float-left">
               46 Brookflower Rd, Houston TX

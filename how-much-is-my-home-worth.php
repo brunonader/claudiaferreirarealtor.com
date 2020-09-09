@@ -19,20 +19,25 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/heart.png">
   </head>
-  <body>
+  <body style='height: 100%;'>
+    
     <header class="site-header">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-4 site-logo" data-aos="fade"><a href="index.php">Claudia Ferreira</a>
+          <div class="col-4 site-logo" data-aos="fade">
+          <!-- <a href="index.php">Claudia Ferreira</a> -->
             
           </div>
           <div class="col-8">
-            <div class="site-menu-toggle js-site-menu-toggle"  data-aos="fade">
+
+
+            <!-- <div class="site-menu-toggle js-site-menu-toggle"  data-aos="fade">
               <span></span>
               <span></span>
               <span></span>
-            </div>
+            </div> -->
             <!-- END menu-toggle -->
+<!--
             <div class="site-navbar js-site-navbar">
               <nav role="navigation">
                 <div class="container">
@@ -53,83 +58,69 @@
                   </div>
                 </div>
               </nav>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
     </header>
     <!-- END head -->
 
-    <section class="site-hero overlay" style="background-image: url(img/newsletter.jpg)">
+    <section class="site-hero overlay" style="background-image: url(img/how-much-is-your-home-worth.jpg);">
       <div class="container">
         <div class="row site-hero-inner align-items-center">
           <div class="col-md-7 text-left ml-auto">
-            <h1 class="heading" data-aos="fade-up">Thank you for <br>Sign up!</h1>
-            <p class="sub-heading mb-5" data-aos="fade-up" data-aos-delay="100">We won't share your email with anyone.</p>
-            <p data-aos="fade-up" data-aos-delay="100">
-            <!-- <a href="contact.php" class="btn uppercase btn-outline-light d-sm-inline d-block">Download</a></p> -->
+            <h1 class="heading" data-aos="fade-up">How much is my<br> home worth?</h1>
+            <p class="sub-heading mb-5" data-aos="fade-up" data-aos-delay="100">If you would like to know the value of your home, enter your information below. I will provide you a thorought home address report</p>
+            <form action="thank-you.php" method="post" class="bg-white p-md-5 p-4 mb-5" style="margin-top: -1px;">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="leadName">Name</label>
+                  <input type="text" id="leadName" name="leadName" class="form-control ">
+                </div>
+                <div class="col-md-6 form-group">
+                  <label for="phone">Phone</label>
+                  <input type="text" id="phone" name="phone" class="form-control ">
+                </div>
+              </div>
+          
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" class="form-control ">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="address">Property Address</label>
+                  <input type="text" name="propertyAddress" id="address" class="form-control" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="submit" value="Get my personalized estimate" class="btn btn-primary">
+                </div>
+              </div>
+            </form>
+            <br /><br />
+            <!-- <p data-aos="fade-up" data-aos-delay="100"><a href="contact.php" class="btn uppercase btn-primary mr-md-2 mr-0 mb-3 d-sm-inline d-block" style="margin-left: 100px; width: 200px;">Get In Touch</a>  -->
+              <!-- <a href="contact.php" class="btn uppercase btn-outline-light d-sm-inline d-block">Download</a></p> -->
           </div>
         </div>
-        <a href="#next-section" class="smoothscroll scroll-down">Scroll Down</a>
+        <!-- <a href="#next-section" class="smoothscroll scroll-down">Scroll Down</a> -->
       </div>
     </section>
-    <?php 
-    //var_dump($_POST);
-
-    if($_POST) {
-      //email
-      $email = trim(stripslashes($_POST['email']));
-   
-      // Set Message
-      $message = "Someone signed up for newsletter <br />";
-      $message .= "Email address: " . $email . "<br />";
-
-      // Set From: header
-      $from = "homes@claudiaferreirarealtor.com";
-
-      // Email Headers
-      $headers = "From: newsletter form\r\n";
-      $headers .= "Reply-To: ". $email . "\r\n";
-      $headers .= "MIME-Version: 1.0\r\n";
-      $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-
-      $siteOwnersEmail = 'homes@claudiaferreirarealtor.com';
-      ini_set("sendmail_from", $siteOwnersEmail); // for windows server
-      $mail = mail($siteOwnersEmail, "Email from Website", $message, $headers);
-
-      if ($mail) {
-        echo "<p style='font-size: 19px; color: white; text-align: center'>Thank you for contacting me. I will get back to you shortly. If this is urgent, please call: 475-279-1488</p>";
-      } else {
-          echo "<p style='font-size: 19px; color: white; text-align: center'>Something went wrong. Please try again.</p>";
-      }
-    }
-    ?>
     <!-- END section -->
-  
-    <section class="section" id="next-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7">
-            <img src="img/claudia-ferreira-realtor.jpg"" alt="Image" class="img-fluid rounded img-shadow">
-          </div>
-          <div class="col-lg-4 ml-auto">
-            <h3 class="mb-3" style="margin-top: 15px;">Success!</h3>
-            <p>Thank you for signing up for the Claudia Ferreira Realtor Newsletter. Your newsletter will be delivered shortly to the email address provided</p>
-          </div>
-        </div>
-      </div>
-    </section>
     
-    <?php
-      include("includes/footer-menu.php"); 
-    ?>
-
+    <?php    
+  include("includes/squeeze-page-footer.php"); 
+?>
+    
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/aos.js"></script>
-    <script src="js/main.js"></script>   
+    <script src="js/main.js"></script>
   </body>
 </html>

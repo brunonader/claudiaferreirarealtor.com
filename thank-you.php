@@ -93,7 +93,7 @@
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
-            <a href="property-single.php"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <a href="property-single.php"><img src="img/danbury-ct-home.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
             <h3><a href="property-single.php">$3,450</a></h3>
             <div class="reviews-star float-left">
               46 Brookflower Rd, Houston TX
@@ -123,7 +123,7 @@
 
 
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
-            <a href="property-single.php"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <a href="property-single.php"><img src="img/danbury-ct-home.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
             <h3><a href="property-single.php">$3,450</a></h3>
             <div class="reviews-star float-left">
               46 Brookflower Rd, Houston TX
@@ -164,7 +164,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
-            <img src="img/Claudiagrey.jpg" alt="Image" class="img-fluid rounded img-shadow">
+            <img src="img/claudia-ferreira-realtor.jpg"" alt="Image" class="img-fluid rounded img-shadow">
           </div>
           <div class="col-lg-4 ml-auto">
             <h3 class="mb-3">About Me</h3>
@@ -193,7 +193,7 @@
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="100">
 
             <div class="media media-custom d-block mb-4">
-              <a href="blog-single.php" class="mb-4 d-block"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid"></a>
+              <a href="blog-single.php" class="mb-4 d-block"><img src="img/danbury-ct-home.jpg" alt="Image placeholder" class="img-fluid"></a>
               <div class="media-body">
                 <span class="meta-post">July 3, 2020</span>
                 <h2 class="mt-0 mb-3"><a href="how-to-pick-the-right-realtor.php">How to pick the right realtor?</a></h2>
@@ -245,33 +245,34 @@
         $name = trim(stripslashes($_POST['leadName']));
         $email = trim(stripslashes($_POST['email']));
         $contact_message = trim(stripslashes($_POST['message']));
+        $propertyAddress = trim(stripslashes($_POST['propertyAddress']));
 
         // Set Message
         $message = "Email from: " . $name . "<br />";
-        $message .= "Email address: " . $email . "<br />";
+        $message .= "Email address: " . $email . "<br />";        
         $message .= "Phone: " . $phone . "<br />";
         $message .= "Message: <br />";
+        $message .= "Property Address: " . $propertyAddress . "<br />";
         $message .= $contact_message;
-        $message .= "<br /> ----- <br /> This email was sent from your site's contact form. <br />";
+        $message .= "<br /> ----- <br /> This email was sent from claudiaferreirarealtor.com site's contact form. <br />";
 
-        // Set From: header
-        $from =  $name . " <" . $email . ">";
-
+        
         // Email Headers
-        $headers = "From: " . $from . "\r\n";
-        $headers .= "Reply-To: ". $email . "\r\n";
         $headers .= "MIME-Version: 1.0\r\n";
-        $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-
+        $headers .= "Content-type:text/html;charset=UTF-8\r\n";
+        // More headers
+        $headers .= 'From: <homes@claudiaferreirarealtor.com>' . "\r\n";
+        
     
         $siteOwnersEmail = 'homes@claudiaferreirarealtor.com';
         ini_set("sendmail_from", $siteOwnersEmail); // for windows server
+        // echo "<br>message: " . $message;
+        // echo "<br>message: " . $headers;
         $mail = mail($siteOwnersEmail, "Email from Website", $message, $headers);
 
-		if ($mail) {
-			echo "<p style='font-size: 19px; color: white; text-align: center'>Thank you for contacting me. I will get back to you shortly. If this is urgent, please call: 475-279-1488</p>";
-		}
-        else {
+        if ($mail) {
+          //echo "<p style='font-size: 19px; color: white; text-align: center'>Thank you for contacting me. I will get back to you shortly. If this is urgent, please call: 475-279-1488</p>";
+        } else {
             echo "<p style='font-size: 19px; color: white; text-align: center'>Something went wrong. Please try again.</p>";
         }
     }

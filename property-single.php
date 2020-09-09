@@ -80,7 +80,7 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-6 mb-4 mb-md-0">
-            <img src="img/img_1.jpg" alt="Image" class="img-fluid rounded img-shadow">
+            <img src="img/danbury-ct-home.jpg" alt="Image" class="img-fluid rounded img-shadow">
           </div>
           <div class="col-md-6">
             <img src="img/img_2.jpg" alt="Image" class="img-fluid rounded img-shadow">

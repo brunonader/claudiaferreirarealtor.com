@@ -81,7 +81,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-7">
-          <img src="img/Claudiagrey.jpg" alt="Image" class="img-fluid rounded img-shadow">
+          <img src="img/claudia-ferreira-realtor.jpg"" alt="Image" class="img-fluid rounded img-shadow">
         </div>
         <div class="col-lg-4 ml-auto">
           <h3 class="mb-3" style="margin-top: 15px;">About Me</h3>

@@ -85,7 +85,7 @@
           <div class="row mb-5">
             <div class="col-md-6">
               <div class="media media-custom d-block mb-4">
-                <a href="how-to-pick-the-right-realtor.php" class="mb-4 d-block"><img src="img/img_1.jpg" alt="Claudia Ferreira Realtor | How to pick the right realtor"
+                <a href="how-to-pick-the-right-realtor.php" class="mb-4 d-block"><img src="img/danbury-ct-home.jpg" alt="Claudia Ferreira Realtor | How to pick the right realtor"
                     class="img-fluid"></a>
                 <div class="media-body">
                   <span class="meta-post">July 3, 2020</span>
@@ -127,7 +127,7 @@
 <!--
              <div class="col-md-6">
                 <div class="media media-custom d-block mb-4">
-                  <a href="blog-single.php" class="mb-4 d-block"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  <a href="blog-single.php" class="mb-4 d-block"><img src="img/danbury-ct-home.jpg" alt="Image placeholder" class="img-fluid"></a>
                   <div class="media-body">
                     <span class="meta-post">July 3, 2020</span>
                     <h2 class="mt-0 mb-3"><a href="#">How to pick right realtor?</a></h2>
@@ -180,7 +180,7 @@
                   <ul class="post-list list-unstyled">
                     <li>
                       <a href="blog-single.php" class="d-flex">
-                        <span class="mr-3 image"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid"></span>
+                        <span class="mr-3 image"><img src="img/danbury-ct-home.jpg" alt="Image placeholder" class="img-fluid"></span>
                         <div>
                           <span class="meta">February 27, 2018</span>
                           <h3>Five Reasons to Stay at Villa Resort</h3>
@@ -199,7 +199,7 @@
                     
                     <li>
                       <a href="blog-single.php" class="d-flex">
-                        <span class="mr-3 image"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid"></span>
+                        <span class="mr-3 image"><img src="img/danbury-ct-home.jpg" alt="Image placeholder" class="img-fluid"></span>
                         <div>
                           <span class="meta">February 27, 2018</span>
                           <h3>Five Reasons to Stay at Villa Resort</h3>

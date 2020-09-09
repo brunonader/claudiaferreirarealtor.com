@@ -88,7 +88,7 @@
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
-            <a href="property-single.php"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <a href="property-single.php"><img src="img/danbury-ct-home.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
             <h3><a href="property-single.php">$3,450</a></h3>
             <div class="reviews-star float-left">
               46 Brookflower Rd, Houston TX
@@ -118,7 +118,7 @@
 
 
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
-            <a href="property-single.php"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
+            <a href="property-single.php"><img src="img/danbury-ct-home.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
             <h3><a href="property-single.php">$3,450</a></h3>
             <div class="reviews-star float-left">
               46 Brookflower Rd, Houston TX
@@ -159,7 +159,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
-            <img src="img/Claudiagrey.jpg" alt="Image" class="img-fluid rounded img-shadow">
+            <img src="img/claudia-ferreira-realtor.jpg"" alt="Image" class="img-fluid rounded img-shadow">
           </div>
           <div class="col-lg-4 ml-auto">
             <h3 class="mb-3" style="margin-top: 15px;">About Me</h3>
@@ -188,7 +188,7 @@
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="100">
 
             <div class="media media-custom d-block mb-4">
-              <a href="how-to-pick-the-right-realtor.php" class="mb-4 d-block"><img src="img/img_1.jpg" alt="Image placeholder" class="img-fluid"></a>
+              <a href="how-to-pick-the-right-realtor.php" class="mb-4 d-block"><img src="img/danbury-ct-home.jpg" alt="Image placeholder" class="img-fluid"></a>
               <div class="media-body">
                 <span class="meta-post">July 3, 2020</span>
                 <h2 class="mt-0 mb-3"><a href="how-to-pick-the-right-realtor.php">How to pick the right realtor?</a></h2>

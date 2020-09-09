@@ -87,7 +87,7 @@
             <div class="col-12">
               <div class="row">
                 <div class="col-md-6">
-                  <p><img src="img/img_1.jpg" alt="Image" class="img-fluid"></p>
+                  <p><img src="img/danbury-ct-home.jpg" alt="Image" class="img-fluid"></p>
                 </div>
                 <div class="col-md-6">
                   <p><img src="img/img_2.jpg" alt="Image" class="img-fluid"></p>
@@ -145,7 +145,7 @@
                 <ul class="post-list list-unstyled">
                   <li>
                     <a href="blog-single.php" class="d-flex">
-                      <span class="mr-3 image"><img src="img/img_1.jpg" alt="Image placeholder"
+                      <span class="mr-3 image"><img src="img/danbury-ct-home.jpg" alt="Image placeholder"
                           class="img-fluid"></span>
                       <div>
                         <span class="meta">February 27, 2018</span>
@@ -166,7 +166,7 @@
 
                   <li>
                     <a href="blog-single.php" class="d-flex">
-                      <span class="mr-3 image"><img src="img/img_1.jpg" alt="Image placeholder"
+                      <span class="mr-3 image"><img src="img/danbury-ct-home.jpg" alt="Image placeholder"
                           class="img-fluid"></span>
                       <div>
                         <span class="meta">February 27, 2018</span>
