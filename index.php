@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Claudia Ferreira &mdash; CT Realtor</title>
+    <title>Real Estate Agent | CT Realtor | Claudia Ferreira</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="keywords" content="Real Estate Agent, Claudia Ferreira, Claudia Ferreira Realtor, Real Estate Agent Near Me, Full Time Realtor, Connecticut Realtor, Finding the home that fits your lifestyle, moving to ct, moving to connecticut, moving to fairfield county"/>
     <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Playfair+Display:400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -18,6 +18,16 @@
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/heart.png">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154109939-2">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-154109939-2');
+    </script>
   </head>
   <body>
     
@@ -64,7 +74,7 @@
     </header>
     <!-- END head -->
 
-    <section class="site-hero overlay" style="background-image: url(img/claudia-face-small.jpg)">
+    <section class="site-hero overlay" style="background-image: url(img/beautiful-real-estate-in-connecticut.jpg)">
       <div class="container">
         <div class="row site-hero-inner align-items-center">
           <div class="col-md-7 text-left ml-auto">
@@ -79,26 +89,80 @@
     </section>
     <!-- END section -->
 
-    <!-- <section class="section visit-section" id="next-section">
+    <section class="section visit-section" id="next-section">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="heading" data-aos="fade-up">Popular Properties</h2>
+            <h2 class="heading" data-aos="fade-up">Featured Properties</h2>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
-            <a href="property-single.php"><img src="img/danbury-ct-home.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="property-single.php">$3,450</a></h3>
+        <?php
+        for ($i=1; $i < 5; $i++) {
+          $delay = $i * 100;
+          switch($i) {
+            case '1':
+              $id = $i;
+              $amount = '$900,000';
+              $address = '49 Starr Lane, Bethel, CT 06801';
+              $photoDirectory = '49-starr-lane-bethel-ct';
+              $mainPhoto = 'entrance.jpg';        
+            break;
+            case '2':
+              $id = $i;
+              $amount = '$2,277,000';
+              $address = '17 Twin Ridge Road, Ridgefield, CT 06877';
+              $photoDirectory = '17-twin-ridge-road-ridgefield-ct';
+              $mainPhoto = 'main.jpg';              
+            break;
+            case '3':
+              $id = $i;
+              $amount = '$640,000';
+              $address = '78 Hobby Drive, Ridgefield, CT 06877';
+              $photoDirectory = '78-hobby-drive-ridgefield-ct';
+              $mainPhoto = 'main.jpg';        
+            break;
+            case '4':
+              $id = $i;
+              $amount = '$899,900';
+              $address = '7 Vona Way, Newtown, CT 06470';
+              $photoDirectory = '7-vonna-way-newtown-ct';
+              $mainPhoto = 'main.jpg';              
+            break;
+
+            default: 
+              $id = $i;
+              $amount = '$2,277,000';
+              $address = '17 Twin Ridge Road, Ridgefield, CT 06877';
+              $photoDirectory = '17-twin-ridge-road-ridgefield-ct';
+              $mainPhoto = 'main.jpg';            
+            break;
+          }
+          
+          echo '
+          <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="' . $delay . '">
+            <a href="featured-properties.php?id='. $id .'&address=' . $photoDirectory . '">
+            <img src="img/listing/' . $photoDirectory . '/' . $mainPhoto . '" 
+            alt="' . $address . '" class="img-fluid rounded"> </a>
+            <h3><a href="featured-properties.php?id='. $i .'&address=' . $photoDirectory . '">' . $amount . '</a></h3>
             <div class="reviews-star float-left">
-              46 Brookflower Rd, Houston TX
+              ' . $address . '
+            </div>
+          </div>';
+        }
+        ?>
+          <!-- <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up">
+            <a href="featured-properties.php?id=1&address=49-starr-lane-bethel-ct"><img src="img/listing/49-starr-lane-bethel-ct/entrance.jpg" alt="49 Starr Lane Bethel, CT" class="img-fluid rounded"> </a>
+            <h3><a href="featured-properties.php?id=1&address=49-starr-lane-bethel-ct">$900,000</a></h3>
+            <div class="reviews-star float-left">
+              49 Starr Lane, Bethel, CT 06801
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="100">
-            <a href="property-single.php"><img src="img/img_2.jpg" alt="Image placeholder" class="img-fluid rounded"> </a>
-            <h3><a href="property-single.php">$1,650</a></h3>
+            <a href="featured-properties.php?id=2&address=17-twin-ridge-road-ridgefield-ct"><img src="img/listing/17-twin-ridge-road-ridgefield-ct/main.jpg" alt="17 Twin Ridge Road Ridgefield, CTr" class="img-fluid rounded"> </a>
+            <h3><a href="featured-properties.php?id=2&address=17-twin-ridge-road-ridgefield-ct">$2,277.000</a></h3>
             <div class="reviews-star float-left">
-              2724 20th Ave N, Houston TX
+              17 Twin Ridge Road, Ridgefield, CT 06877
             </div>
           </div>
           <div class="col-lg-3 col-md-6 visit mb-3" data-aos="fade-up" data-aos-delay="200">
@@ -144,11 +208,11 @@
             <div class="reviews-star float-left">
               4029 26th Ave S, Houston TX
             </div>
-          </div>
+          </div> -->
 
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- END section -->
   
     <?php
@@ -159,7 +223,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
-            <img src="img/claudia-ferreira-realtor.jpg"" alt="Image" class="img-fluid rounded img-shadow">
+            <img src="img/claudia-ferreira-realtor.jpg" alt="Image" class="img-fluid rounded img-shadow">
           </div>
           <div class="col-lg-4 ml-auto">
             <h3 class="mb-3" style="margin-top: 15px;">About Me</h3>

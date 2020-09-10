@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-  <title>Claudia Ferreira &mdash; CT Realtor</title>
+  <title>Real Estate Agent | CT Realtor | Claudia Ferreira</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <meta name="keywords" content="Real Estate Agent, Claudia Ferreira, Claudia Ferreira Realtor, Real Estate Agent Near Me, Full Time Realtor, Connecticut Realtor, Finding the home that fits your lifestyle, moving to ct, moving to connecticut, moving to fairfield county"/>
   <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Playfair+Display:400,700"
     rel="stylesheet">
 

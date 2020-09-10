@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Claudia Ferreira &mdash; CT Realtor</title>
+    <title>Real Estate Agent | CT Realtor | Claudia Ferreira</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="keywords" content="Real Estate Agent, Claudia Ferreira, Claudia Ferreira Realtor, Real Estate Agent Near Me, Full Time Realtor, Connecticut Realtor, Finding the home that fits your lifestyle, moving to ct, moving to connecticut, moving to fairfield county"/>
     <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Playfair+Display:400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -18,6 +18,16 @@
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/heart.png">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154109939-2">
+    </script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-154109939-2');
+    </script>
   </head>
   <body>
     
