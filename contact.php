@@ -72,7 +72,7 @@
     </header>
     <!-- END head -->
 
-    <section class="site-hero overlay page-inside" style="background-image: url(img/contact.jpg)">
+    <section class="site-hero overlay page-inside" style="background-image: url(img/beautiful-home-in-newtown-ct.jpg)">
       <div class="container">
         <div class="row site-hero-inner align-items-center">
           <div class="col-md-7 text-left mr-auto">
