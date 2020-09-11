@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /#next-section/
+Disallow: /property-single.php
+Disallow: /blog-single.php
+Disallow: /thank-you.php
+Noindex: /thank-you.php
+
+Sitemap: https://www.claudiaferreirarealtor.com/sitemap.xml
