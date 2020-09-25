@@ -34,41 +34,9 @@
     <header class="site-header">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-4 site-logo" data-aos="fade">
-          <!-- <a href="index.php">Claudia Ferreira</a> -->
-            
+          <div class="col-4 site-logo" data-aos="fade">            
           </div>
           <div class="col-8">
-
-
-            <!-- <div class="site-menu-toggle js-site-menu-toggle"  data-aos="fade">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div> -->
-            <!-- END menu-toggle -->
-<!--
-            <div class="site-navbar js-site-navbar">
-              <nav role="navigation">
-                <div class="container">
-                  <div class="row full-height align-items-center">
-                    <div class="col-md-6">
-                      <ul class="list-unstyled menu">
-                        <li class="active"><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About</a></li>
-                        <li><a href="blog.php">Blog</a></li>
-                        <li><a href="contact.php">Contact</a></li>
-                        <li><a href="sell-your-property.php">Sell Your Property</a></li>
-                        <li><a href="search-for-properties.php">Search For Properties</a></li>
-                      </ul>
-                    </div>
-                    <?php
-      include("includes/contact-social-media-section.php"); 
-    ?>
-                  </div>
-                </div>
-              </nav>
-            </div> -->
           </div>
         </div>
       </div>
@@ -111,9 +79,7 @@
                 </div>
               </div>
             </form>
-            <br /><br />
-            <!-- <p data-aos="fade-up" data-aos-delay="100"><a href="contact.php" class="btn uppercase btn-primary mr-md-2 mr-0 mb-3 d-sm-inline d-block" style="margin-left: 100px; width: 200px;">Get In Touch</a>  -->
-              <!-- <a href="contact.php" class="btn uppercase btn-outline-light d-sm-inline d-block">Download</a></p> -->
+            <br /><br />            
           </div>
         </div>
         <!-- <a href="#next-section" class="smoothscroll scroll-down">Scroll Down</a> -->
